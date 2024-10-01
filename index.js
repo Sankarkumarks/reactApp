@@ -1,6 +1,6 @@
 const express = require('express')
-const cors = require('cors')
-app.use(cors())
+const cors = require('cors');
+app.use(cors());
 let notes = [
   {
     id: "1",
